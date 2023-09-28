@@ -14,6 +14,6 @@ public class LandingController {
 
     @GetMapping("/messages")
     public ResponseEntity<List<String>> getMessages(){
-        return ResponseEntity.ok(Arrays.asList("Hey","User"));
+        return ResponseEntity.ok(Arrays.asList("Hello","You have successfully logged in"));
     }
 }
