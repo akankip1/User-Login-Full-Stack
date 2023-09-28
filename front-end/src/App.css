@@ -111,7 +111,7 @@ input::placeholder{
 }
 body{
   font-family: Roboto;
-  /* background-image: url(yami.jpg); */
+  background-image: url(yami.jpg);
   background-position: center; 
   background-repeat: no-repeat; 
   background-attachment: scroll;    
