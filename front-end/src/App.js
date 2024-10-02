@@ -91,8 +91,7 @@ function App() {
           />}></Route>
           {/* <Route element={<ProtectedRoutes/>}>
             <Route path="/loggedin" element={<AuthContent/>}></Route>
-            
-          </Route> */}
+            </Route> */}
           <Route path="/loggedin" element={<AuthContent/>}></Route>
           <Route path="/register" element={<RegisterForm
           email={email}

@@ -5,8 +5,8 @@ spring:
     platform: postgres
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/jwtregistration
-    username: "postgres"
-    password: "Kankipati@69"
+    username: ${env.POSTGRES_USERNAME}
+    password: ${env.POSTGRES_PASSWORD}
     initialization-mode: always
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
